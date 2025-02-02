@@ -1,0 +1,14 @@
+[data-theme='dark'] #footer {
+  background-color: rgb(26,26,26)!important;
+  background-size: cover;
+}
+
+/* 适配手机模式 */
+
+@media (max-width: 768px) {
+[data-theme='dark'] #footer {
+    background: rgb(26,26,26);
+    background-size: cover;
+  }
+}
+
