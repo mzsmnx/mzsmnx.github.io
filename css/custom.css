@@ -63,7 +63,7 @@
 }
 
 .btn-xz-box:hover .btn-xz {
-    background-color: #6f42c1;
+    background-color: #6595f0;
 }
 
 .t-top .t-t-r {
@@ -87,7 +87,7 @@
 
 .ft-links li a:hover {
     text-decoration: none !important;
-    color: #6f42c1 !important;
+    color: #6595f0 !important;
 }
 
 .ft-item-2 .ft-img-group {
@@ -155,41 +155,3 @@
     }
 }
 /* 自定义底部  End */
-
-#aside-content .card-info .card-info-social-icons .social-icon :hover{
-    transform: scale(1.5);
-  }
-  
-  #aside-content .avatar-img :hover{
-    transform: none;
-  }
-
-/* 全局宽度 */
-.layout {
-    max-width: 1300px;
-  }
-  
-  /* 侧边卡片栏宽度 */
-  .aside-content {
-    max-width: 318px;
-    min-width: 300px;
-  }
-  
-  /* 平板尺寸自适应(不启用侧边栏宽度限制) */
-  @media screen and (max-width: 900px) {
-    .aside-content {
-      max-width: none !important;
-      padding: 0 5px 0 5px;
-    }
-  }
-
-  /* 除了首页以外其他页面隐藏卡片，并采用宽屏显示 */
-#archive,
-#page,
-#category,
-#tag {
-  width: 100%;
-}
-.page:not(.page.home) .aside-content {
-  display: none;
-}
