@@ -155,10 +155,3 @@
     }
 }
 /* 自定义底部  End */
-
-@media screen and (max-width: 800px) {
-    #aside_content {
-        display: none;
-        font-size: 13px;
-    }
-}
