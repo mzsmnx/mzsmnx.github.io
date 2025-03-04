@@ -25,6 +25,19 @@
 ]]></content>
   </entry>
   <entry>
+    <title>零基础学习C语言</title>
+    <url>/2025/03/04/C/C%E5%9F%BA%E7%A1%80/</url>
+    <content><![CDATA[<h1 id="一、C语言基础"><a href="#一、C语言基础" class="headerlink" title="一、C语言基础"></a>一、C语言基础</h1><h2 id="1-第一个C程序"><a href="#1-第一个C程序" class="headerlink" title="1.第一个C程序"></a>1.第一个C程序</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Hello World!/n&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//std - 标准</span></span><br><span class="line"><span class="comment">//i - 输入</span></span><br><span class="line"><span class="comment">//o - 输出</span></span><br><span class="line"><span class="comment">//int 为整型</span></span><br><span class="line"><span class="comment">//main() - 主函数 其中（）里面写参数</span></span><br><span class="line"><span class="comment">//printf() - 为库函数</span></span><br><span class="line"><span class="comment">//return 0; - 主函数返回值为0</span></span><br><span class="line"><span class="comment">//注意void main()&#123;&#125; 为古老写法，不可用</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>C</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Markdown语法</title>
     <url>/2025/02/10/Markdown/Markdown/</url>
     <content><![CDATA[<h1 id="1-标题"><a href="#1-标题" class="headerlink" title="1. 标题"></a>1. 标题</h1><p>使用 <code>#</code> 来设置标题，有多少 <code>#</code> 就是第多少级标题</p>
@@ -549,19 +562,6 @@
         <tag>Hexo</tag>
         <tag>Github</tag>
         <tag>Cloudflare</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>零基础学习C语言</title>
-    <url>/2025/03/04/C/C%E5%9F%BA%E7%A1%80/</url>
-    <content><![CDATA[<h1 id="一、C语言基础"><a href="#一、C语言基础" class="headerlink" title="一、C语言基础"></a>一、C语言基础</h1><h2 id="1-第一个C程序"><a href="#1-第一个C程序" class="headerlink" title="1.第一个C程序"></a>1.第一个C程序</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Hello World!/n&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//std - 标准</span></span><br><span class="line"><span class="comment">//i - 输入</span></span><br><span class="line"><span class="comment">//o - 输出</span></span><br><span class="line"><span class="comment">//int 为整型</span></span><br><span class="line"><span class="comment">//main() - 主函数 其中（）里面写参数</span></span><br><span class="line"><span class="comment">//printf() - 为库函数</span></span><br><span class="line"><span class="comment">//return 0; - 主函数返回值为0</span></span><br><span class="line"><span class="comment">//注意void main()&#123;&#125; 为古老写法，不可用</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>C</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
       </tags>
   </entry>
   <entry>
