@@ -564,8 +564,16 @@
 <p>在 <code>source/css/</code>目录下，新建 <code>dartheme_modify.css</code> </p>
 <figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-attr">[data-theme=<span class="string">&#x27;dark&#x27;</span>]</span> <span class="selector-id">#footer</span> &#123;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="built_in">rgb</span>(<span class="number">26</span>,<span class="number">26</span>,<span class="number">26</span>)<span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">background-size</span>: cover;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 适配手机模式 */</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">768px</span>) &#123;</span><br><span class="line"><span class="selector-attr">[data-theme=<span class="string">&#x27;dark&#x27;</span>]</span> <span class="selector-id">#footer</span> &#123;</span><br><span class="line">    <span class="attribute">background</span>: <span class="built_in">rgb</span>(<span class="number">26</span>,<span class="number">26</span>,<span class="number">26</span>);</span><br><span class="line">    <span class="attribute">background-size</span>: cover;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
+<h2 id="3-源文件备份"><a href="#3-源文件备份" class="headerlink" title="3. 源文件备份"></a>3. 源文件备份</h2><p>如果版本大于3.X，使用下面命令安装</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-git-backup --save</span><br></pre></td></tr></table></figure>
 
+<p>备份更新：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm remove hexo-git-backup</span><br><span class="line">npm install hexo-git-backup --save</span><br></pre></td></tr></table></figure>
 
+<p>安装完毕后，在 <code>_config.yml</code> 文件中配置：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">backup:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">theme:</span> <span class="string">butterfly</span></span><br><span class="line">  <span class="attr">message:</span> <span class="string">MyBlog</span> <span class="string">Buckup</span></span><br><span class="line">  <span class="attr">repository:</span> </span><br><span class="line">    <span class="attr">github:</span> <span class="string">git@github.com:xxx/xxx.git,branchName</span></span><br></pre></td></tr></table></figure>
+
+<p>注：theme为主题，message可以随便写，branchName为分支名</p>
 ]]></content>
       <categories>
         <category>博客搭建</category>
