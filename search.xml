@@ -1,10 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>零基础学习C语言</title>
+    <url>/2025/03/04/C/C%E5%9F%BA%E7%A1%80/</url>
+    <content><![CDATA[<h1 id="一、第一个C程序"><a href="#一、第一个C程序" class="headerlink" title="一、第一个C程序"></a>一、第一个C程序</h1><h1 id="第一个C程序"><a href="#第一个C程序" class="headerlink" title="第一个C程序"></a>第一个C程序</h1><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Hello World!/n&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//std - 标准</span></span><br><span class="line"><span class="comment">//i - 输入</span></span><br><span class="line"><span class="comment">//o - 输出</span></span><br><span class="line"><span class="comment">//int 为整型</span></span><br><span class="line"><span class="comment">//main() - 主函数 其中（）里面写参数</span></span><br><span class="line"><span class="comment">//printf() - 为库函数</span></span><br><span class="line"><span class="comment">//return 0; - 主函数返回值为0</span></span><br><span class="line"><span class="comment">//注意void main()&#123;&#125; 为古老写法，不可用</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>C</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>post</title>
     <url>/2025/01/31/post/</url>
     <content><![CDATA[<h1 id="第一天"><a href="#第一天" class="headerlink" title="第一天"></a>第一天</h1><p>安装hexo 和 github pages</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>Markdown语法</title>
+    <url>/2025/02/10/Markdown/Markdown/</url>
+    <content><![CDATA[<h1 id="1-标题"><a href="#1-标题" class="headerlink" title="1. 标题"></a>1. 标题</h1><p>使用 <code>#</code> 来设置标题，有多少 <code>#</code> 就是第多少级标题</p>
+<div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">代码</button><button type="button" class="tab">预览</button></div><div class="tab-contents"><div class="tab-item-content active"><figure class="highlight text"><table><tr><td class="code"><pre><span class="line"># 这是一级标题</span><br><span class="line">## 这是二级标题</span><br><span class="line">### 这是三级标题</span><br><span class="line">#### 这是四级标题</span><br><span class="line">##### 这是五级标题</span><br><span class="line">###### 这是六级标题</span><br></pre></td></tr></table></figure></div><div class="tab-item-content"><p>见文章可知</p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+
+<h1 id="2-字体效果"><a href="#2-字体效果" class="headerlink" title="2. 字体效果"></a>2. 字体效果</h1><p>原版中共有3中字体效果：加粗、倾斜、删除，可以相互叠加</p>
+<div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">代码</button><button type="button" class="tab">预览</button></div><div class="tab-contents"><div class="tab-item-content active"><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">**这是加粗的文字**</span><br><span class="line">*这是倾斜的文字*</span><br><span class="line">***这是斜体加粗的文字***</span><br><span class="line">~~这是加删除线的文字~~</span><br><span class="line">~~*这是斜体删除的文字*~~</span><br></pre></td></tr></table></figure></div><div class="tab-item-content"><p><strong>这是加粗的文字</strong></p>
+<p><em>这是倾斜的文字</em><br><em><strong>这是斜体加粗的文字</strong></em><br><del>这是加删除线的文字</del><br><del><em>这是斜体删除的文字</em></del></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+
+<h1 id="3-引用"><a href="#3-引用" class="headerlink" title="3. 引用"></a>3. 引用</h1><p>使用 <code>&gt;</code> 添加引用效果，允许嵌套</p>
+<div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">代码</button><button type="button" class="tab">预览</button></div><div class="tab-contents"><div class="tab-item-content active"><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">&gt; 这是引用的内容</span><br></pre></td></tr></table></figure></div><div class="tab-item-content"><blockquote>
+<p>这是引用的内容</p>
+</blockquote></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+
+<h1 id="4-列表"><a href="#4-列表" class="headerlink" title="4.列表"></a>4.列表</h1><p>列表允许嵌套</p>
+<h2 id="4-1-无序列表"><a href="#4-1-无序列表" class="headerlink" title="4.1 无序列表"></a>4.1 无序列表</h2><div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">代码</button><button type="button" class="tab">预览</button></div><div class="tab-contents"><div class="tab-item-content active"><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">- 列表1</span><br><span class="line">- 列表2</span><br><span class="line">- 列表3</span><br></pre></td></tr></table></figure></div><div class="tab-item-content"><ul>
+<li>列表1</li>
+<li>列表2</li>
+<li>列表3</li>
+</ul></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+
+<h2 id="4-2-有序列表"><a href="#4-2-有序列表" class="headerlink" title="4.2 有序列表"></a>4.2 有序列表</h2><div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">代码</button><button type="button" class="tab">预览</button></div><div class="tab-contents"><div class="tab-item-content active"><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">1. 列表1</span><br><span class="line">2. 列表2</span><br><span class="line">3. 列表3</span><br></pre></td></tr></table></figure></div><div class="tab-item-content"><ol>
+<li>列表1</li>
+<li>列表2</li>
+<li>列表3</li>
+</ol></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+
+<h1 id="5-分割线"><a href="#5-分割线" class="headerlink" title="5. 分割线"></a>5. 分割线</h1><p>三个或者三个以上的 <code>-</code> 或者 <code>*</code> 都可以</p>
+<div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">代码</button><button type="button" class="tab">预览</button></div><div class="tab-contents"><div class="tab-item-content active"><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">—--</span><br></pre></td></tr></table></figure></div><div class="tab-item-content"><hr></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+
+<h1 id="6-链接"><a href="#6-链接" class="headerlink" title="6. 链接"></a>6. 链接</h1><div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">代码</button><button type="button" class="tab">预览</button></div><div class="tab-contents"><div class="tab-item-content active"><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">[百度](https://www.baidu.com)</span><br></pre></td></tr></table></figure></div><div class="tab-item-content"><p><a href="https://www.baidu.com/">百度</a></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+
+<h1 id="7-表格"><a href="#7-表格" class="headerlink" title="7. 表格"></a>7. 表格</h1><p>Markdown 制作表格使用<code>|</code>来分隔不同的单元格，使用<code>-</code>来分隔表头和其他行</p>
+<p>自定义对齐方式：</p>
+<ul>
+<li><code>-:</code>内容和标题栏居右对齐</li>
+<li><code>:-</code>内容和标题栏居左对齐</li>
+<li><code>:-:</code>内容和标题栏居中对齐</li>
+</ul>
+<div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">代码</button><button type="button" class="tab">预览</button></div><div class="tab-contents"><div class="tab-item-content active"><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">|  表头   | 表头  |</span><br><span class="line">|  ----  | ----  |</span><br><span class="line">| 单元格  | 单元格 |</span><br><span class="line">| 单元格  | 单元格 |</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">| 左对齐 | 右对齐 | 居中对齐 |</span><br><span class="line">| :-----| ----: | :----: |</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br></pre></td></tr></table></figure></div><div class="tab-item-content"><table>
+<thead>
+<tr>
+<th>表头</th>
+<th>表头</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+<tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th align="left">左对齐</th>
+<th align="right">右对齐</th>
+<th align="center">居中对齐</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+<tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+</tbody></table></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+
+<h1 id="8-代码"><a href="#8-代码" class="headerlink" title="8. 代码"></a>8. 代码</h1><h2 id="8-1-行内代码"><a href="#8-1-行内代码" class="headerlink" title="8.1 行内代码"></a>8.1 行内代码</h2><div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">代码</button><button type="button" class="tab">预览</button></div><div class="tab-contents"><div class="tab-item-content active"><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">` 行内代码 `</span><br></pre></td></tr></table></figure></div><div class="tab-item-content"><p><code>行内代码</code></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+
+<h2 id="8-2-代码块"><a href="#8-2-代码块" class="headerlink" title="8.2 代码块"></a>8.2 代码块</h2><div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">代码</button><button type="button" class="tab">预览</button></div><div class="tab-contents"><div class="tab-item-content active"><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">```cpp</span><br><span class="line">#include&lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    cout&lt;&lt;&quot;Hello World!&quot;;</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br><span class="line">```</span><br></pre></td></tr></table></figure></div><div class="tab-item-content"><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line">usiing <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cout&lt;&lt;<span class="string">&quot;Hello World!&quot;</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+]]></content>
+      <categories>
+        <category>Markdown</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
@@ -460,95 +562,6 @@
         <tag>Hexo</tag>
         <tag>Github</tag>
         <tag>Cloudflare</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Markdown语法</title>
-    <url>/2025/02/10/Markdown/Markdown/</url>
-    <content><![CDATA[<h1 id="1-标题"><a href="#1-标题" class="headerlink" title="1. 标题"></a>1. 标题</h1><p>使用 <code>#</code> 来设置标题，有多少 <code>#</code> 就是第多少级标题</p>
-<div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">代码</button><button type="button" class="tab">预览</button></div><div class="tab-contents"><div class="tab-item-content active"><figure class="highlight text"><table><tr><td class="code"><pre><span class="line"># 这是一级标题</span><br><span class="line">## 这是二级标题</span><br><span class="line">### 这是三级标题</span><br><span class="line">#### 这是四级标题</span><br><span class="line">##### 这是五级标题</span><br><span class="line">###### 这是六级标题</span><br></pre></td></tr></table></figure></div><div class="tab-item-content"><p>见文章可知</p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
-
-<h1 id="2-字体效果"><a href="#2-字体效果" class="headerlink" title="2. 字体效果"></a>2. 字体效果</h1><p>原版中共有3中字体效果：加粗、倾斜、删除，可以相互叠加</p>
-<div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">代码</button><button type="button" class="tab">预览</button></div><div class="tab-contents"><div class="tab-item-content active"><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">**这是加粗的文字**</span><br><span class="line">*这是倾斜的文字*</span><br><span class="line">***这是斜体加粗的文字***</span><br><span class="line">~~这是加删除线的文字~~</span><br><span class="line">~~*这是斜体删除的文字*~~</span><br></pre></td></tr></table></figure></div><div class="tab-item-content"><p><strong>这是加粗的文字</strong></p>
-<p><em>这是倾斜的文字</em><br><em><strong>这是斜体加粗的文字</strong></em><br><del>这是加删除线的文字</del><br><del><em>这是斜体删除的文字</em></del></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
-
-<h1 id="3-引用"><a href="#3-引用" class="headerlink" title="3. 引用"></a>3. 引用</h1><p>使用 <code>&gt;</code> 添加引用效果，允许嵌套</p>
-<div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">代码</button><button type="button" class="tab">预览</button></div><div class="tab-contents"><div class="tab-item-content active"><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">&gt; 这是引用的内容</span><br></pre></td></tr></table></figure></div><div class="tab-item-content"><blockquote>
-<p>这是引用的内容</p>
-</blockquote></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
-
-<h1 id="4-列表"><a href="#4-列表" class="headerlink" title="4.列表"></a>4.列表</h1><p>列表允许嵌套</p>
-<h2 id="4-1-无序列表"><a href="#4-1-无序列表" class="headerlink" title="4.1 无序列表"></a>4.1 无序列表</h2><div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">代码</button><button type="button" class="tab">预览</button></div><div class="tab-contents"><div class="tab-item-content active"><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">- 列表1</span><br><span class="line">- 列表2</span><br><span class="line">- 列表3</span><br></pre></td></tr></table></figure></div><div class="tab-item-content"><ul>
-<li>列表1</li>
-<li>列表2</li>
-<li>列表3</li>
-</ul></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
-
-<h2 id="4-2-有序列表"><a href="#4-2-有序列表" class="headerlink" title="4.2 有序列表"></a>4.2 有序列表</h2><div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">代码</button><button type="button" class="tab">预览</button></div><div class="tab-contents"><div class="tab-item-content active"><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">1. 列表1</span><br><span class="line">2. 列表2</span><br><span class="line">3. 列表3</span><br></pre></td></tr></table></figure></div><div class="tab-item-content"><ol>
-<li>列表1</li>
-<li>列表2</li>
-<li>列表3</li>
-</ol></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
-
-<h1 id="5-分割线"><a href="#5-分割线" class="headerlink" title="5. 分割线"></a>5. 分割线</h1><p>三个或者三个以上的 <code>-</code> 或者 <code>*</code> 都可以</p>
-<div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">代码</button><button type="button" class="tab">预览</button></div><div class="tab-contents"><div class="tab-item-content active"><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">—--</span><br></pre></td></tr></table></figure></div><div class="tab-item-content"><hr></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
-
-<h1 id="6-链接"><a href="#6-链接" class="headerlink" title="6. 链接"></a>6. 链接</h1><div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">代码</button><button type="button" class="tab">预览</button></div><div class="tab-contents"><div class="tab-item-content active"><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">[百度](https://www.baidu.com)</span><br></pre></td></tr></table></figure></div><div class="tab-item-content"><p><a href="https://www.baidu.com/">百度</a></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
-
-<h1 id="7-表格"><a href="#7-表格" class="headerlink" title="7. 表格"></a>7. 表格</h1><p>Markdown 制作表格使用<code>|</code>来分隔不同的单元格，使用<code>-</code>来分隔表头和其他行</p>
-<p>自定义对齐方式：</p>
-<ul>
-<li><code>-:</code>内容和标题栏居右对齐</li>
-<li><code>:-</code>内容和标题栏居左对齐</li>
-<li><code>:-:</code>内容和标题栏居中对齐</li>
-</ul>
-<div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">代码</button><button type="button" class="tab">预览</button></div><div class="tab-contents"><div class="tab-item-content active"><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">|  表头   | 表头  |</span><br><span class="line">|  ----  | ----  |</span><br><span class="line">| 单元格  | 单元格 |</span><br><span class="line">| 单元格  | 单元格 |</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">| 左对齐 | 右对齐 | 居中对齐 |</span><br><span class="line">| :-----| ----: | :----: |</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br></pre></td></tr></table></figure></div><div class="tab-item-content"><table>
-<thead>
-<tr>
-<th>表头</th>
-<th>表头</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>单元格</td>
-<td>单元格</td>
-</tr>
-<tr>
-<td>单元格</td>
-<td>单元格</td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th align="left">左对齐</th>
-<th align="right">右对齐</th>
-<th align="center">居中对齐</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">单元格</td>
-<td align="right">单元格</td>
-<td align="center">单元格</td>
-</tr>
-<tr>
-<td align="left">单元格</td>
-<td align="right">单元格</td>
-<td align="center">单元格</td>
-</tr>
-</tbody></table></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
-
-<h1 id="8-代码"><a href="#8-代码" class="headerlink" title="8. 代码"></a>8. 代码</h1><h2 id="8-1-行内代码"><a href="#8-1-行内代码" class="headerlink" title="8.1 行内代码"></a>8.1 行内代码</h2><div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">代码</button><button type="button" class="tab">预览</button></div><div class="tab-contents"><div class="tab-item-content active"><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">` 行内代码 `</span><br></pre></td></tr></table></figure></div><div class="tab-item-content"><p><code>行内代码</code></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
-
-<h2 id="8-2-代码块"><a href="#8-2-代码块" class="headerlink" title="8.2 代码块"></a>8.2 代码块</h2><div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">代码</button><button type="button" class="tab">预览</button></div><div class="tab-contents"><div class="tab-item-content active"><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">```cpp</span><br><span class="line">#include&lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    cout&lt;&lt;&quot;Hello World!&quot;;</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br><span class="line">```</span><br></pre></td></tr></table></figure></div><div class="tab-item-content"><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line">usiing <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cout&lt;&lt;<span class="string">&quot;Hello World!&quot;</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
-]]></content>
-      <categories>
-        <category>Markdown</category>
-      </categories>
-      <tags>
-        <tag>Markdown</tag>
       </tags>
   </entry>
   <entry>
