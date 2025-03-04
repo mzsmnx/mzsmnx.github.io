@@ -19,10 +19,35 @@
 ]]></content>
   </entry>
   <entry>
+    <title>零基础学习C语言</title>
+    <url>/2025/03/04/C/C%E5%9F%BA%E7%A1%80/</url>
+    <content><![CDATA[<h1 id="一、C语言基础"><a href="#一、C语言基础" class="headerlink" title="一、C语言基础"></a>一、C语言基础</h1><h2 id="1-第一个C程序"><a href="#1-第一个C程序" class="headerlink" title="1.第一个C程序"></a>1.第一个C程序</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Hello World!\n&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//std - 标准</span></span><br><span class="line"><span class="comment">//i - 输入</span></span><br><span class="line"><span class="comment">//o - 输出</span></span><br><span class="line"><span class="comment">//int 为整型</span></span><br><span class="line"><span class="comment">//main() - 主函数 其中（）里面写参数</span></span><br><span class="line"><span class="comment">//printf() - 为库函数</span></span><br><span class="line"><span class="comment">//return 0; - 主函数返回值为0</span></span><br><span class="line"><span class="comment">//注意void main()&#123;&#125; 为古老写法，不可用</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>C</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>post</title>
     <url>/2025/01/31/post/</url>
     <content><![CDATA[<h1 id="第一天"><a href="#第一天" class="headerlink" title="第一天"></a>第一天</h1><p>安装hexo 和 github pages</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>MySQL+Tomcat+Centos7代码块演示</title>
+    <url>/2025/02/01/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%BC%94%E7%A4%BA/%E6%BC%94%E7%A4%BA/</url>
+    <content><![CDATA[<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(args[])</span>&#123;</span><br><span class="line">    system.out.println(<span class="string">&quot;hello world!&quot;</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>测试开发</category>
+      </categories>
+      <tags>
+        <tag>Mysql</tag>
+        <tag>tomcat</tag>
+      </tags>
   </entry>
   <entry>
     <title>Markdown语法</title>
@@ -111,31 +136,6 @@
       </categories>
       <tags>
         <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>零基础学习C语言</title>
-    <url>/2025/03/04/C/C%E5%9F%BA%E7%A1%80/</url>
-    <content><![CDATA[<h1 id="一、C语言基础"><a href="#一、C语言基础" class="headerlink" title="一、C语言基础"></a>一、C语言基础</h1><h2 id="1-第一个C程序"><a href="#1-第一个C程序" class="headerlink" title="1.第一个C程序"></a>1.第一个C程序</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Hello World!/n&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//std - 标准</span></span><br><span class="line"><span class="comment">//i - 输入</span></span><br><span class="line"><span class="comment">//o - 输出</span></span><br><span class="line"><span class="comment">//int 为整型</span></span><br><span class="line"><span class="comment">//main() - 主函数 其中（）里面写参数</span></span><br><span class="line"><span class="comment">//printf() - 为库函数</span></span><br><span class="line"><span class="comment">//return 0; - 主函数返回值为0</span></span><br><span class="line"><span class="comment">//注意void main()&#123;&#125; 为古老写法，不可用</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>C</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>MySQL+Tomcat+Centos7代码块演示</title>
-    <url>/2025/02/01/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%BC%94%E7%A4%BA/%E6%BC%94%E7%A4%BA/</url>
-    <content><![CDATA[<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(args[])</span>&#123;</span><br><span class="line">    system.out.println(<span class="string">&quot;hello world!&quot;</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>测试开发</category>
-      </categories>
-      <tags>
-        <tag>Mysql</tag>
-        <tag>tomcat</tag>
       </tags>
   </entry>
   <entry>
